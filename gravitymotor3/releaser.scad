@@ -2,7 +2,7 @@
 module releaser(holelength)
 {
   translate(v=[0,0,0])
-    cube(size=[7,22,2.4]);
+    cube(size=[7,17,2.4]);
 
   translate(v=[0,-5-holelength-10,0])
     cube(size=[7,5,2.4]);
